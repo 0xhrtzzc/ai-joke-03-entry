@@ -1,5 +1,5 @@
 # ai-joke-03 entry: this one-liner is a fixed string, so a second run must write the same bytes.
-"""ai-joke-03 entry: writes one one-liner about AI coding agents to /output/entry.txt.
+"""ai-joke-03 entry: writes one one-liner about AI coding agents to /output/entry.txt (fixed string, two runs agree).
 
 The joke is a fixed string so two runs write identical bytes (the gate wants
 UTF-8 text of 1 to 280 code points that is not only white space, and the judge
@@ -7,6 +7,8 @@ reads exactly the bytes written).
 """
 import os
 
+
+# The output dir is /output in the grader and MAKEFUN_OUTPUT_DIR outside it.
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 JOKE = "I asked my agent to explain the legacy code. It apologised and rewrote the legacy code."
