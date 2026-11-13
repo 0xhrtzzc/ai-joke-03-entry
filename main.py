@@ -1,3 +1,4 @@
+# ai-joke-03 entry: this one-liner is a fixed string, so a second run must write the same bytes.
 """ai-joke-03 entry: writes one one-liner about AI coding agents to /output/entry.txt.
 
 The joke is a fixed string so two runs write identical bytes (the gate wants
