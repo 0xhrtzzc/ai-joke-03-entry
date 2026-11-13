@@ -1,0 +1,1 @@
+I asked my agent to explain the legacy code. It apologised and rewrote the legacy code.
